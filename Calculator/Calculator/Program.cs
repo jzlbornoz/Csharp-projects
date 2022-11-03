@@ -25,41 +25,50 @@ public class Calculator {
                 return result;
             }
         }
-        return 0;
     }
     public static void Main()
     {
         Calculator calculator = new Calculator();
 
-        Console.WriteLine("Bienvenido");
-        Console.WriteLine(" 1: Suma \n 2: Multiplicacion \n 3: Divicion");
-        int switchCase = Convert.ToInt32(Console.ReadLine());
-        switch(switchCase)
+        Console.WriteLine("=== Bienvenido === \n");
+        bool res = true;
+        while(res)
         {
-            case 1:
-                Console.WriteLine("Ingresa la primera cantidad: ");
-                float number1 = float.Parse(Console.ReadLine());
-                Console.WriteLine("Ingresa la segunda cantidad: ");
-                float number2 = float.Parse(Console.ReadLine());
-                float result = calculator.Operations(1 ,number1, number2);
-                Console.WriteLine($"Resultado: {result}");
-                break;
-            case 2:
-                Console.WriteLine("Ingresa la cantidad: ");
-                float numberA = float.Parse(Console.ReadLine());
-                Console.WriteLine("Ingresa la segunda cantidad: ");
-                float numberB = float.Parse(Console.ReadLine());
-                float resultMult = calculator.Operations( 2 ,numberA, numberB);
-                Console.WriteLine($"Resultado: {resultMult}");
-                break;
-            case 3:
-                Console.WriteLine("Ingresa la cantidad: ");
-                float a = float.Parse(Console.ReadLine());
-                Console.WriteLine("Ingresa la segunda cantidad: ");
-                float b = float.Parse(Console.ReadLine());
-                float resultDiv = calculator.Operations(3, a, b);
-                Console.WriteLine($"Resultado: {resultDiv}");
-                break;
+            Console.WriteLine(" 1: Suma \n 2: Multiplicacion \n 3: Divicion \n 4: Salir");
+            int switchCase = Convert.ToInt32(Console.ReadLine());
+            switch (switchCase)
+            {
+                case 1:
+                    Console.WriteLine("Ingresa la primera cantidad: ");
+                    float number1 = float.Parse(Console.ReadLine());
+                    Console.WriteLine("Ingresa la segunda cantidad: ");
+                    float number2 = float.Parse(Console.ReadLine());
+                    float result = calculator.Operations(1, number1, number2);
+                    Console.WriteLine($"\n Resultado: {result} \n");
+                    break;
+                case 2:
+                    Console.WriteLine("Ingresa la cantidad: ");
+                    float numberA = float.Parse(Console.ReadLine());
+                    Console.WriteLine("Ingresa la segunda cantidad: ");
+                    float numberB = float.Parse(Console.ReadLine());
+                    float resultMult = calculator.Operations(2, numberA, numberB);
+                    Console.WriteLine($"\n Resultado: {resultMult} \n");
+                    break;
+                case 3:
+                    Console.WriteLine("Ingresa la cantidad: ");
+                    float a = float.Parse(Console.ReadLine());
+                    Console.WriteLine("Ingresa la segunda cantidad: ");
+                    float b = float.Parse(Console.ReadLine());
+                    float resultDiv = calculator.Operations(3, a, b);
+                    Console.WriteLine($"\n Resultado: {resultDiv} \n");
+                    break;
+                case 4:
+                        res = false;
+                        break;
+                default:
+                    Console.WriteLine("Opcion invalida");
+                    break;
+            }
         }
     }
 }
