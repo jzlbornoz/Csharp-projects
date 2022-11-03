@@ -1,0 +1,15 @@
+C:\Users\javie\Desktop\C#\SistemaDeRegistros\SistemaDeRegistros\bin\Debug\net6.0\SistemaDeRegistros.exe
+C:\Users\javie\Desktop\C#\SistemaDeRegistros\SistemaDeRegistros\bin\Debug\net6.0\SistemaDeRegistros.deps.json
+C:\Users\javie\Desktop\C#\SistemaDeRegistros\SistemaDeRegistros\bin\Debug\net6.0\SistemaDeRegistros.runtimeconfig.json
+C:\Users\javie\Desktop\C#\SistemaDeRegistros\SistemaDeRegistros\bin\Debug\net6.0\SistemaDeRegistros.dll
+C:\Users\javie\Desktop\C#\SistemaDeRegistros\SistemaDeRegistros\bin\Debug\net6.0\SistemaDeRegistros.pdb
+C:\Users\javie\Desktop\C#\SistemaDeRegistros\SistemaDeRegistros\obj\Debug\net6.0\SistemaDeRegistros.csproj.AssemblyReference.cache
+C:\Users\javie\Desktop\C#\SistemaDeRegistros\SistemaDeRegistros\obj\Debug\net6.0\SistemaDeRegistros.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\javie\Desktop\C#\SistemaDeRegistros\SistemaDeRegistros\obj\Debug\net6.0\SistemaDeRegistros.AssemblyInfoInputs.cache
+C:\Users\javie\Desktop\C#\SistemaDeRegistros\SistemaDeRegistros\obj\Debug\net6.0\SistemaDeRegistros.AssemblyInfo.cs
+C:\Users\javie\Desktop\C#\SistemaDeRegistros\SistemaDeRegistros\obj\Debug\net6.0\SistemaDeRegistros.csproj.CoreCompileInputs.cache
+C:\Users\javie\Desktop\C#\SistemaDeRegistros\SistemaDeRegistros\obj\Debug\net6.0\SistemaDeRegistros.dll
+C:\Users\javie\Desktop\C#\SistemaDeRegistros\SistemaDeRegistros\obj\Debug\net6.0\refint\SistemaDeRegistros.dll
+C:\Users\javie\Desktop\C#\SistemaDeRegistros\SistemaDeRegistros\obj\Debug\net6.0\SistemaDeRegistros.pdb
+C:\Users\javie\Desktop\C#\SistemaDeRegistros\SistemaDeRegistros\obj\Debug\net6.0\SistemaDeRegistros.genruntimeconfig.cache
+C:\Users\javie\Desktop\C#\SistemaDeRegistros\SistemaDeRegistros\obj\Debug\net6.0\ref\SistemaDeRegistros.dll
